@@ -13,7 +13,7 @@
             "boot_command": [
                 "<up><tab> ",
                 "inst.ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/centos7.ks ",
-                "inst.dd=http://{{ .HTTPIP }}:{{ .HTTPPort }}/megaraid_sas-07.700.50.00_el7.3-1.x86_64.iso ",
+                "inst.dd=http://{{ .HTTPIP }}:{{ .HTTPPort }}/megaraid_sas-07.713.02.00_el7.8-1.x86_64.iso ",
                 "console=ttyS0 inst.cmdline",
                 "<enter>"
             ],
